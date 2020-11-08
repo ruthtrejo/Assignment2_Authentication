@@ -23,6 +23,7 @@
 <div id="container">
     <div class="column">
         <p>Welcome! To view exclusive content please sign in!</p>
+        <p><br> If you are a registered user, please sign in to access an exclusive page!</p>
     </div>
 </div>
 
