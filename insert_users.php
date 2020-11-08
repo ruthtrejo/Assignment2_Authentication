@@ -1,7 +1,17 @@
+<?php session_start(); ?>
 <?php
 
 require_once "database_connections/connect_database.php";
 require_once "database_connections/clean_input.php";
+
+//Connect to the cssrvlab01 database at UTEP
+$databaseConnector = new DatabaseConnector();
+$conn = $databaseConnector->connect();
+
+if ($_SESSION["logged_in"] != true) {
+    echo("Access denied!");
+    exit();
+}
 
 //instantiate clean input
 $cleanse = new Sanitizer();

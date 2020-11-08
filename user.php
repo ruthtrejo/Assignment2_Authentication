@@ -1,3 +1,19 @@
+<?php session_start(); ?>
+<?php
+
+require_once "database_connections/connect_database.php";
+require_once "database_connections/clean_input.php";
+
+//Connect to the cssrvlab01 database at UTEP
+$databaseConnector = new DatabaseConnector();
+$conn = $databaseConnector->connect();
+
+if ($_SESSION["logged_in"] != true) {
+    echo("Access denied!");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +26,7 @@
 
 <!-- Pink banner with title -->
 <div class="bannerHeader header-color">
-    <h1>Welcome [usersName] </h1>
+    <h1>Welcome <?php echo("{$_SESSION['users_name']}");?> ! </h1>
 </div>
 
 <!-- Navigation Bar -->
