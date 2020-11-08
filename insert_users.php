@@ -10,8 +10,25 @@ $cleanse = new Sanitizer();
 $databaseConnector = new DatabaseConnector();
 $conn = $databaseConnector->connect();
 
+function _insert_user($name){
+    print <<<HERE
+<div class="container">
+    <p>The user '$name' was successfully inserted into the database. </p>
+</div>
+HERE;
 
-//Clients credentials
+}
+
+function _insertion_error($command, $query_error){
+    print <<<HERE
+<div class="container">
+    <p>ERROR: Was not able to execute '' --- . </p>
+</div>
+HERE;
+
+}
+
+/* Clients credentials */
 
 //First Name
 $input_firstName = $cleanse->cleanInput($_POST["fName"]);
@@ -35,9 +52,9 @@ if( isset($submitBtn) ){
 VALUES ('$input_firstName','$input_lastName','$input_username','$hashed_password', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP,'$input_userRole')";
 
     if( mysqli_query($conn,$sql) ){
-        echo "The user <b>" . $input_firstName . "</b> was successfully inserted into the database.";
+        _insert_user($input_firstName);
     } else{
-        echo "<b>ERROR: </b> Was not able to execute $sql --- " . mysqli_error($conn);
+        _insertion_error($sql, mysqli_error($conn));
     }
 }
 ?>
