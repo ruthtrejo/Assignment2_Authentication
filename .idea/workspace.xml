@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="363e6082-64e8-474e-9d51-db18b9f93a96" name="Default Changelist" comment="log-in authentication works now">
+    <list default="true" id="363e6082-64e8-474e-9d51-db18b9f93a96" name="Default Changelist" comment="log-in session is sent throughout pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insert_users.php" beforeDir="false" afterPath="$PROJECT_DIR$/insert_users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_of_users.php" beforeDir="false" afterPath="$PROJECT_DIR$/list_of_users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signin.php" beforeDir="false" afterPath="$PROJECT_DIR$/signin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/user.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <workItem from="1604452279936" duration="8676000" />
       <workItem from="1604540678261" duration="464000" />
       <workItem from="1604714892768" duration="6731000" />
-      <workItem from="1604789388325" duration="22755000" />
+      <workItem from="1604789388325" duration="25146000" />
     </task>
     <task id="LOCAL-00001" summary="Changed registration confirmation style">
       <created>1604810521745</created>
@@ -89,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604815178837</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="log-in session is sent throughout pages">
+      <created>1604816395926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604816395926</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +104,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed registration confirmation style" />
     <MESSAGE value="log-in authentication works now" />
-    <option name="LAST_COMMIT_MESSAGE" value="log-in authentication works now" />
+    <MESSAGE value="log-in session is sent throughout pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="log-in session is sent throughout pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604795519102">
@@ -127,9 +134,9 @@
     </state>
     <state x="-1126" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604376549086" />
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604814068760" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604815192474">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604816406291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604815192474" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604816406291" />
   </component>
 </project>

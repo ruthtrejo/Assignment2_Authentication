@@ -12,6 +12,8 @@ if ($_SESSION["logged_in"] != true) {
     echo("Access denied!");
     exit();
 }
+//EDIT timestamp
+$query = mysqli_query($conn,"UPDATE user SET last_login = CURRENT_TIMESTAMP WHERE id = {$_SESSION['users_name']};");
 ?>
 
 <!DOCTYPE html>
@@ -37,7 +39,7 @@ if ($_SESSION["logged_in"] != true) {
 
 <div id="container">
     <div class="column">
-        <p>Welcome! You can view your information below.</p>
+        <p>Welcome to the users page <?php echo("{$_SESSION['firstName']}");?>! </p>
     </div>
 </div>
 
