@@ -1,5 +1,8 @@
 # Assignment2_Authentication
 [CS 5339] Secure Web-Based Systems
+
+[Assignment created by: Dr. Luc Longpre at UTEP]
+
 The web site has three types of users: visitors, regular users, and
 administrators. Information about regular users and administrators will be
 stored in a MySQL database. Visitors have access to public information
