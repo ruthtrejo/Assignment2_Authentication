@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="363e6082-64e8-474e-9d51-db18b9f93a96" name="Default Changelist" comment="">
+    <list default="true" id="363e6082-64e8-474e-9d51-db18b9f93a96" name="Default Changelist" comment="Changed registration confirmation style">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insert_users.php" beforeDir="false" afterPath="$PROJECT_DIR$/insert_users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signin.php" beforeDir="false" afterPath="$PROJECT_DIR$/signin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +33,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -68,12 +71,24 @@
       <workItem from="1604452279936" duration="8676000" />
       <workItem from="1604540678261" duration="464000" />
       <workItem from="1604714892768" duration="6731000" />
-      <workItem from="1604789388325" duration="17075000" />
+      <workItem from="1604789388325" duration="21707000" />
     </task>
+    <task id="LOCAL-00001" summary="Changed registration confirmation style">
+      <created>1604810521745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604810521745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed registration confirmation style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed registration confirmation style" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604795519102">
@@ -97,10 +112,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="751" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604372007567" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1604808210758">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1604814068760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1126" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604376549086" />
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604808210758" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604814068760" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604810573941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604810573941" />
   </component>
 </project>
