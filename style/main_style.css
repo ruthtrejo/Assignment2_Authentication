@@ -10,6 +10,11 @@ body {
     padding: 1rem;
 }
 
+h5{
+    font-family: Century Gothic;
+    color: red;
+}
+
 /* SELECT TAG CSS FORMAT */
 .w3-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
 .w3-border-0{border:0!important}.w3-border{border:1px solid #ccc!important}

@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- IMPORT STYLE SHEET FOR MAINPAGE -->
     <link rel="stylesheet" href="style/main_style.css">
-    <title>Assignment 2</title>
+    <title>Home</title>
 </head>
 <body>
 
