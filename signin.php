@@ -23,7 +23,8 @@ if ( !empty($_POST) ){
         //VERIFY PASSWORD FROM USER
         if( $count == 1 ){
             if( password_verify('$input_password', $row['password']) ){
-
+                mysqli_query($conn,"UPDATE user SET last_login= now() WHERE username='$input_username';
+");
                 /* Check whether the user is a regular user or an administrator */
                 if( $row['user_type'] == 'user' ){
                     $_SESSION['users_name'] = $input_username;
